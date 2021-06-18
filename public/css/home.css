@@ -1,0 +1,124 @@
+
+
+    .home{
+        background-image: url("/img/bg-body.png");
+
+       
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    .home header img{
+        border-radius: 50%;
+        border: 2px gray solid;
+        width: 180px;
+        display: block;
+        margin: 15px auto 30px;
+    
+    }
+
+
+.home header li{
+    width: 100%;
+    background-color: gray;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    text-align: center;
+    list-style:none;
+
+
+}
+
+.home header li:last-child{
+    border-bottom: none;
+}
+.home header a{color: white;
+    text-transform: uppercase;
+}
+.home button{
+display: block;
+margin: 30px auto;
+background-color: #444444;
+border: none;
+padding: 5px;
+color: white;
+border-radius: 5px;
+
+}
+
+
+.home .banner img{
+    display: none;
+}
+
+
+.home .products{
+    margin: 30px 0;
+}
+
+
+.home article{
+width: 100%;
+position: relative;
+}
+
+.home article img.label{
+    position: absolute;
+    top: 0;        /* pones una imagen sobre otra. como una equiqueta de "oferta" sobre la imagen de un producto x ejemplo */
+    right: 10px;
+
+
+
+}
+
+.home article a.zoom{  /*  encierra un una cajita el h3 */
+    text-transform: uppercase;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding: 5px 0;
+    top: 80px;
+  
+}
+
+
+.home article a.more{
+    display: inline-block;
+    background-color: #444444;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    right: 20px;
+}
+
+
+.home article h4 p{
+    margin: 10px 0;
+
+}
+
+
+.home footer li{
+    width: 100%;
+    background-color: #b92519;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    list-style: none;
+
+}
+.home article .imagen{
+
+
+}
+.home article img.photo{
+    width: 100%;
+}
+
+@media (min-width:768px){ /* cuando el ancho de viufor llegue a ese ancho de 768px o mas va a pasar lo q este dentro de los parentesis */
+.home header li{  /* muy importante si el selecctor(ruta .home header li) sea exactamente igual q la escrita arriba, si no funciona */
+background-color: blue;
+}
+}
